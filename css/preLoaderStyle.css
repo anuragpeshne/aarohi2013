@@ -1,0 +1,96 @@
+@font-face { font-family: calvinHobbes; src: url('../fonts/CALVINN.TTF'); } 
+@font-face { font-family: crayonFont; src: url('../fonts/DK Crayon Crumble.ttf'); } 
+@font-face { font-family: handFont; src: url('../fonts/RobinsHand-Regular.ttf'); } 
+
+a, a:visited{
+    color: #000;
+    text-decoration: none;
+}
+body{
+    
+    font-family: calvinHobbes, sans-serif;
+    text-align: center;
+    overflow: hidden;
+}
+#treeContainer{
+    height: 100%;
+    position: absolute;
+    left: 0;
+    z-index: 10;
+}
+#treeContainer img{
+    height: 100%;
+    z-index: 10;
+}
+#calvinContainer{
+    z-index: 10;
+    float:left;
+    height:80%;
+    position: absolute;
+    top: 12%;
+    left: 20px;
+    z-index: -10;
+}
+#calvinContainer img{
+    height:50%;
+    margin-top: 350px;
+    z-index: -10;
+}
+#vnitLogoContainer{
+    position: absolute;
+    width: 20%;
+    left: 40%;
+    top: 20px;
+    font-size: 22px;
+}
+#vnitLogo{
+    width: 30%;
+    margin: 0 auto;
+}
+#vnitLogo img{
+    width: 100%;
+}
+#largeCloudContainer{
+    position: absolute;
+    right: 2%;
+    width: 28%;
+    top: 10%;
+}
+#largeCloudContainer img{
+    width: 100%;
+}
+#loginContainer{
+    width: 15%;
+    position: absolute;
+    right: 1%;
+    bottom: 2%;
+    font-size: 20px;
+}
+#loginContainer img{
+    width: 100%;
+}
+#loginContainer:hover{
+    cursor: pointer;
+}
+#quoteContainer{
+    font-size: 40px;
+    width: 40%;
+    position: absolute;
+    left: 30%;
+    top: 65%;
+    font-family: crayonFont;
+}
+#loginPopUp {
+    font-family: 'handFont', sans-serif;
+    font-size: 55px; 
+}
+#loginPopUp div{
+    float: left;
+    width: 49%;
+    cursor: pointer;
+    margin : 10px 0;
+    padding: 35px 0;
+}
+#loginPopUp div:hover, #loginPopUp div a:hover{
+    color: #555;
+}

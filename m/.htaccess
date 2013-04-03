@@ -1,0 +1,6 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^m\.aarohiworld\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.m\.aarohiworld\.com$
+RewriteRule ^/?$ "http\:\/\/aarohiworld\.com\/m" [R=301,L]
+

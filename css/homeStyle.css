@@ -1,0 +1,116 @@
+@font-face { font-family: handFont; src: url('../fonts/RobinsHand-Regular.ttf'); } 
+@font-face { font-family: spaceFont; src: url('../fonts/Denne Shuffle.ttf'); }
+a, a:visited{color:#000; text-decoration:none}
+body{overflow:hidden; font-family:handFont,sans-serif; font-size:25px}
+#overlay{width:100%; height:100%; position:fixed; background-color:#aaa; opacity:.6; cursor:wait; display:none; z-index:10}
+.page{width:100%; height:100%}
+#dreamLand{position:absolute; top:0}
+#dreamLand #sky{position:relative; height:75%; top:25%}
+
+#eventContainer{display:none; width:80%; height:80%; position:absolute; top:10%; left:10%}
+.eventsButton{position:absolute; cursor:pointer; z-index:100; background-color:#fff; font-family:spaceFont,sans-serif}
+
+.cloudContainer{display:none; width:95%; height:90%; position:fixed; top:5%; left:2.5%; z-index:500; background-color:transparent}
+.cloudContainer img{position:absolute; top:0; left:0; z-index:-1; width:100%; height:100%}
+.contentContainer{margin:20px; position:absolute; width:100%; height:100%; background-color:transparent}
+
+.contentContainer img{width:25%; height:auto; position:absolute; left:65%; top:30%}
+.contentContainer .content{position:absolute; width:50%; top:12%; left:10%; text-align:justify; background-color:transparent; font-size: 26px}
+#home{position:absolute; top:100%}
+#sponsorPage{position:absolute; left:100%; top:100%;overflow-y: scroll;}
+#adminContainer{height:100%; position:absolute; left:0; top:0}
+#adminContainer img{height:100%; opacity:0.8}
+#vnitLandMarkContainer{position:absolute; width:10%; bottom:0; left:10%}
+#vnitLandMarkContainer img{width:100%}
+#linkBoardContainer{position:absolute; left:0; top:60%; height:20%; opacity:.97}
+#linkBoardContainer img{height:100%}
+#cnhContainer{position:absolute; width:30%; left:40%; bottom:3%; z-index:100}
+#cnhContainer img{width:100%}
+#linksPoleContainer{position:absolute; right:10px; bottom:10px; z-index:1; height:60%}
+.linkPlate{position:absolute; right:25px; width:9%; z-index:2}
+.linkPlate img{position:absolute; right:0; width:100%}
+.linkPlate a{position:absolute; top:8px; left:12px; font-size:150%; text-align:center; font-family:handFont,sans-serif}
+
+#balloon{position:absolute; top:0%; width:10%; right:10px; width:12%;}
+#balloon img{position:absolute; right:0; width:100%}
+#plane{position:absolute; top:6%; left:35%; width:45%;}
+#plane img{width: 100%;}
+.updates{position:absolute; top:23%; left:10%; font-size:20px; text-align:center; display: none;}
+
+#wallPlate{top:48%}
+#cnPlate{top:53%}
+#galleryPlate{top:58%}
+#familyPlate{top:63%}
+#blogPlate{top:68%}
+/*#dnldPlate{top:70%}
+#PIOPlate{top:73%}*/
+#schedulePlate{top:73%}
+#resultPlate{top:78%}
+#archivesPlate{top:83%}
+
+#sponsorContainer{position:absolute; width:15%; right:0px; bottom:-6px; cursor:pointer; z-index:10}
+#sponsorContainer img{width:100%}
+#fenceContainer{width:30%; position:absolute; left:27%; top:60%; z-index:1}
+#fenceContainer img{width:100%; opacity:.9}
+#fenceRContainer{width:30%; position:absolute; left:57.5%; top:60%; z-index:1; margin-left:-35px}
+#fenceRContainer img{width:100%; opacity:.9}
+.billboard{position:absolute; width:5%; top:57%; cursor:pointer; z-index:101; padding:5px}
+.popUpContainer{padding:50px; text-align:center}
+
+#aboutUsPopupContainer{font-size: 25px; text-align: justify;}
+
+#eventsBillboard{left:62.5%}
+#proShowBillboard{left:71.5%}
+#workshopBillboard{left:80.5%}
+#aboutUsBillboard{left:20%}
+.billboard img{width:100%}
+.billboard:hover{transform:rotate(10deg); -ms-transform:rotate(10deg); -moz-transform:rotate(10deg); -webkit-transform:rotate(10deg); -o-transform:rotate(10deg)}
+.backButtons{position:absolute; top:10px; right:10px; font-size:0; cursor:pointer}
+.backButtons:hover{font-size:35px}
+.closeButton{position:absolute; right:15%; top:15%; width:50px; height:50px; cursor:pointer}
+.closeButton:hover{width:52px; height:52px}
+.closeButton img{width:100%}
+#moonContainer{position:absolute; top:70%; left:10%; width:5%}
+#satelliteContainer{position:absolute; top:90%; left:80%; width:3%}
+#planetContainer{position:absolute; top:50%; left:0; width:4%}
+#saturnContainer{position:absolute; top:10%; left:40%; width:5%}
+#saturnContainer1{position:absolute; top:12%; left:10%; width:3%}
+#saturnContainer2{position:absolute; top:15%; left:80%; width:5%}
+.starContainer{position:absolute}
+#spaceShip1Container{position:absolute; left:0; top:60%; width:4%; z-index:101}
+#spaceShip2Container{position:absolute; left:40%; top:60%; width:4%; z-index:99}
+#asteroidContainer{position:absolute; left:80%; top:0; width:2.5%}
+#moonContainer img, .starContainer img, #saturnContainer img, #saturnContainer1 img, #saturnContainer2 img, #satelliteConntainer img, #spaceShip1Container img, #asteroidContainer img, #spaceShip2Container img, #planetContainer img{width:100%}
+#purpleHaze{left:40%; top:30%; font-size:45px}
+#dramatics{left:20%; top:5%; font-size:40px}
+#aLaDanse{left:60%; top:60%; font-size:42px}
+#debate{left:20%; top:90%; font-size:35px}
+#pentathlon{left:10%; top:70%; font-size:41px}
+#swarManzar{left:70%; top:86%; font-size:48px}
+#literary{left:40%; top:80%; font-size:42px}
+#cynosure{left:10%; top:20%; font-size:44px}
+#photography{left:80%; top:31%; font-size:38px}
+#artConoscenza{left:60%; top:5%; font-size:43px}
+#sponsorTable{width:70%; margin: 5% auto;}
+	#sponsorTable td{padding: 20px; text-align: center;}
+
+#footer{position: absolute; bottom: 5px; width: 95%; text-align: center; z-index: 101;}
+#footer span:hover, #footer a:hover{cursor: pointer; color: #356c93;}
+
+#contactUspopUpContainer{padding: 20px;text-align: center;}
+#contactUspopUpContainer a, #contactUspopUpContainer a:visited{color: #356c93;}
+#contactUspopUpContainer a:hover{color: #ddd;}
+#contactUspopUpContainer td{padding: 5px;text-align: center;}
+
+#toggleMusic{cursor: pointer; position: fixed; top: 0; left: 0; background-color: rgba(255, 255, 255, 0.7); width: 50px; height: 50px; border: 1px solid black; border-radius: 0 0 30px 0}
+#toggleMusic img{width: 100%; height: 100%}
+
+#loginButton, #registerButton{cursor: pointer; border: solid 2px #444; border-radius: 25px; padding: 5px; margin-left: 80px}
+.registerButtonContainer{margin-top:10px; font-size: 110%}
+.regContainer{width: 25%; margin: 10% auto;}
+.regContainer input{border: solid 1px #ddd; border-top: 0; border-left: 0; border-right: 0; padding: 3px; font-family: inherit;font-size: 75%;text-align: center;text-transform: uppercase; width: 50%}
+	.regContainer #cancelReg, .regContainer #goReg, .regContainer #finalButton{border: solid 2px #444; border-radius: 20px; padding: 0 13px 5px 13px; margin-top: 20px;cursor: pointer;}
+	.regContainer #goReg{margin: 20px 0 0 140px}
+	.regContainer #cancelReg:hover, .regContainer #goReg:hover, #loginButton:hover, #registerButton:hover, .regContainer #finalButton:hover{background-color: #888;color: #eee;}
+	.regContainer img{position: static;width: 100%;margin: auto;}
+	.regContainer #singingType, .regContainer #danceType, .regContainer #artConType, .regContainer #photoType{padding: 5px; color: #333; border-radius: 10px; background-color: #fff}

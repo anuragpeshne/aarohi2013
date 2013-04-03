@@ -1,0 +1,40 @@
+[20-Jan-2013 12:24:18] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/aarohiwo/public_html/backend/loginProcessor.php on line 40
+[20-Jan-2013 12:25:32] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/aarohiwo/public_html/backend/loginProcessor.php on line 40
+[20-Jan-2013 12:27:19] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/aarohiwo/public_html/backend/loginProcessor.php on line 40
+[01-Feb-2013 21:40:16] PHP Notice:  Duplicate entry '8' for key 'userId' in INSERT INTO purpleHaze (userId, bandName) VALUES ('0008', '23'); in /home/aarohiwo/public_html/backend/loginProcessor.php on line 90
+[01-Feb-2013 23:21:41] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/aarohiwo/public_html/backend/loginProcessor.php on line 42
+[02-Feb-2013 02:39:12] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/aarohiwo/public_html/backend/loginProcessor.php on line 42
+[02-Feb-2013 10:20:52] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/aarohiwo/public_html/backend/loginProcessor.php on line 42
+[02-Feb-2013 10:20:56] PHP Notice:  Duplicate entry '0' for key 'userId' in INSERT INTO aLaDanse (userId, type, groupName) VALUES ('<br />
+<b>Warning</b>:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in <b>/home/aarohiwo/public_html/backend/loginProcessor.php</b> on line <b>42</b><br />
+','solo',''); in /home/aarohiwo/public_html/backend/loginProcessor.php on line 90
+[02-Feb-2013 10:51:56] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/aarohiwo/public_html/backend/loginProcessor.php on line 42
+[02-Feb-2013 21:36:54] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/aarohiwo/public_html/backend/loginProcessor.php on line 42
+[03-Feb-2013 03:44:53] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/aarohiwo/public_html/backend/loginProcessor.php on line 42
+[03-Feb-2013 03:49:23] PHP Notice:  Duplicate entry '0' for key 'userId' in INSERT INTO aLaDanse (userId, type, groupName) VALUES ('<br />
+<b>Warning</b>:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in <b>/home/aarohiwo/public_html/backend/loginProcessor.php</b> on line <b>42</b><br />
+','group','t10'); in /home/aarohiwo/public_html/backend/loginProcessor.php on line 90
+[03-Feb-2013 03:50:28] PHP Notice:  Duplicate entry '0' for key 'userId' in INSERT INTO aLaDanse (userId, type, groupName) VALUES ('<br />
+<b>Warning</b>:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in <b>/home/aarohiwo/public_html/backend/loginProcessor.php</b> on line <b>42</b><br />
+','group','t 10'); in /home/aarohiwo/public_html/backend/loginProcessor.php on line 90
+[03-Feb-2013 03:52:33] PHP Notice:  Duplicate entry '0' for key 'userId' in INSERT INTO aLaDanse (userId, type, groupName) VALUES ('<br />
+<b>Warning</b>:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in <b>/home/aarohiwo/public_html/backend/loginProcessor.php</b> on line <b>42</b><br />
+','group','t11'); in /home/aarohiwo/public_html/backend/loginProcessor.php on line 90
+[03-Feb-2013 03:53:43] PHP Notice:  Duplicate entry '0' for key 'userId' in INSERT INTO aLaDanse (userId, type, groupName) VALUES ('<br />
+<b>Warning</b>:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in <b>/home/aarohiwo/public_html/backend/loginProcessor.php</b> on line <b>42</b><br />
+','group','t11'); in /home/aarohiwo/public_html/backend/loginProcessor.php on line 90
+[03-Feb-2013 11:11:33] PHP Notice:  Duplicate entry '8' for key 'userId' in INSERT INTO dramatics (userId, teamName) VALUES ('0008', ''); in /home/aarohiwo/public_html/backend/loginProcessor.php on line 90
+[03-Feb-2013 11:14:49] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/aarohiwo/public_html/backend/loginProcessor.php on line 42
+[03-Feb-2013 11:26:02] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/aarohiwo/public_html/backend/loginProcessor.php on line 42
+[03-Feb-2013 11:26:13] PHP Notice:  Duplicate entry '0' for key 'userId' in INSERT INTO aLaDanse (userId, type, groupName) VALUES ('','group','grprk'); in /home/aarohiwo/public_html/backend/loginProcessor.php on line 90
+[03-Feb-2013 11:27:22] PHP Notice:  Duplicate entry '0' for key 'userId' in INSERT INTO aLaDanse (userId, type, groupName) VALUES ('','group','rty'); in /home/aarohiwo/public_html/backend/loginProcessor.php on line 90
+[03-Feb-2013 11:27:42] PHP Notice:  Duplicate entry '0' for key 'userId' in INSERT INTO aLaDanse (userId, type, groupName) VALUES ('','group','qwerty'); in /home/aarohiwo/public_html/backend/loginProcessor.php on line 90
+[03-Feb-2013 11:28:05] PHP Notice:  Duplicate entry '0' for key 'userId' in INSERT INTO pentathlon (userId, teamName) VALUES ('', 'qwerty'); in /home/aarohiwo/public_html/backend/loginProcessor.php on line 90
+[03-Feb-2013 11:44:28] PHP Notice:  Table 'aarohiwo_db2013.registeredUser' doesn't exist in SELECT userId from registeredUser WHERE email = 'anurag.peshne@gmail.com' in /home/aarohiwo/public_html/backend/loginProcessor.php on line 41
+[03-Feb-2013 11:44:28] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/aarohiwo/public_html/backend/loginProcessor.php on line 42
+[06-Feb-2013 12:03:23] PHP Notice:  Duplicate entry '0' for key 'userId' in INSERT INTO purpleHaze (userId, bandName) VALUES ('', 'titans'); in /home/aarohiwo/public_html/backend/loginProcessor.php on line 90
+[06-Feb-2013 12:04:00] PHP Notice:  Duplicate entry '0' for key 'userId' in INSERT INTO purpleHaze (userId, bandName) VALUES ('', 'titans'); in /home/aarohiwo/public_html/backend/loginProcessor.php on line 90
+[07-Feb-2013 02:54:19] PHP Notice:  Duplicate entry '0-solo' for key 'userId' in INSERT INTO swarManzar (userId, type, partnerName) VALUES ('','solo',''); in /home/aarohiwo/public_html/backend/loginProcessor.php on line 90
+[07-Feb-2013 02:54:39] PHP Notice:  Duplicate entry '0-solo' for key 'userId' in INSERT INTO swarManzar (userId, type, partnerName) VALUES ('','solo',''); in /home/aarohiwo/public_html/backend/loginProcessor.php on line 90
+[07-Feb-2013 02:54:57] PHP Notice:  Duplicate entry '0-solo' for key 'userId' in INSERT INTO swarManzar (userId, type, partnerName) VALUES ('','solo',''); in /home/aarohiwo/public_html/backend/loginProcessor.php on line 90
+[07-Feb-2013 02:55:27] PHP Notice:  Duplicate entry '0-solo' for key 'userId' in INSERT INTO swarManzar (userId, type, partnerName) VALUES ('','solo',''); in /home/aarohiwo/public_html/backend/loginProcessor.php on line 90
